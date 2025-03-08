@@ -8,7 +8,7 @@ export const AppDataSource = new DataSource({
     username: "root",
     password: "",
     database: "node_mysql_crud_api",
-    entities: [User], // ✅ Ensure this is correct
-    synchronize: true, // ✅ This forces table creation
+    entities: [User],
+    synchronize: true, 
     logging: true
 });
